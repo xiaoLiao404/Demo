@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CZRefreshView" customModule="GZWeibo666" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="tableview_loading" translatesAutoresizingMaskIntoConstraints="NO" id="lOn-1W-uIS">
+                    <rect key="frame" x="25" y="14" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="NgU-IG-IZD"/>
+                        <constraint firstAttribute="width" constant="32" id="q1C-iM-atT"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在刷新数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tql-DI-Z4h">
+                    <rect key="frame" x="77" y="21" width="90" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BBb-Pc-x5r" userLabel="TipView">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="60"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="tableview_pull_refresh" translatesAutoresizingMaskIntoConstraints="NO" id="OC2-In-5NO">
+                            <rect key="frame" x="25" y="14" width="32" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="32" id="aJM-le-bcl"/>
+                                <constraint firstAttribute="height" constant="32" id="e7c-iI-Keu"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下拉刷新数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbR-eL-VJl">
+                            <rect key="frame" x="77" y="21" width="90" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="zbR-eL-VJl" firstAttribute="centerY" secondItem="BBb-Pc-x5r" secondAttribute="centerY" id="1O7-Fe-EQl"/>
+                        <constraint firstItem="OC2-In-5NO" firstAttribute="centerY" secondItem="BBb-Pc-x5r" secondAttribute="centerY" id="YKC-I0-Ynz"/>
+                        <constraint firstItem="zbR-eL-VJl" firstAttribute="leading" secondItem="OC2-In-5NO" secondAttribute="trailing" constant="20" id="gsj-CQ-f6d"/>
+                        <constraint firstItem="OC2-In-5NO" firstAttribute="leading" secondItem="BBb-Pc-x5r" secondAttribute="leading" constant="25" id="rfU-pA-Fly"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lOn-1W-uIS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="726-q8-JMq"/>
+                <constraint firstItem="BBb-Pc-x5r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7y3-98-Emu"/>
+                <constraint firstItem="Tql-DI-Z4h" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BcU-kp-bJU"/>
+                <constraint firstItem="lOn-1W-uIS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="D8b-qs-2NP"/>
+                <constraint firstItem="Tql-DI-Z4h" firstAttribute="leading" secondItem="lOn-1W-uIS" secondAttribute="trailing" constant="20" id="DbV-4s-CUf"/>
+                <constraint firstItem="BBb-Pc-x5r" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FvZ-8m-mEi"/>
+                <constraint firstAttribute="bottom" secondItem="BBb-Pc-x5r" secondAttribute="bottom" id="e31-qw-7bw"/>
+                <constraint firstAttribute="trailing" secondItem="BBb-Pc-x5r" secondAttribute="trailing" id="inw-tZ-qvU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="loadingView" destination="lOn-1W-uIS" id="H1q-t8-H8t"/>
+                <outlet property="tipIcon" destination="OC2-In-5NO" id="p7o-kb-8z3"/>
+                <outlet property="tipView" destination="BBb-Pc-x5r" id="kqP-iw-Sxk"/>
+            </connections>
+            <point key="canvasLocation" x="492" y="297"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tableview_loading" width="32" height="32"/>
+        <image name="tableview_pull_refresh" width="32" height="32"/>
+    </resources>
+</document>

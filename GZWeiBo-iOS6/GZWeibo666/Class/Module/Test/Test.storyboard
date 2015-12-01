@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="6yL-eh-57E">
+            <objects>
+                <viewController id="VkZ-m4-9pm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n3H-JS-DVh"/>
+                        <viewControllerLayoutGuide type="bottom" id="X69-Wg-mWv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q6Z-7g-p2q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDb-ID-MJN">
+                                <rect key="frame" x="61" y="58" width="30" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.55550829938139046" blue="0.57789984739524447" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="XUx-70-7zk"/>
+                                    <constraint firstAttribute="height" constant="34" id="dUQ-Ci-sBC"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjd-eu-Lbn">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.98272157410000005" green="1" blue="0.042833358520000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jjd-eu-Lbn" firstAttribute="centerY" secondItem="Q6Z-7g-p2q" secondAttribute="centerY" id="86I-sV-8lO"/>
+                            <constraint firstItem="kDb-ID-MJN" firstAttribute="top" secondItem="n3H-JS-DVh" secondAttribute="bottom" constant="38" id="LUh-Xr-ewa"/>
+                            <constraint firstItem="jjd-eu-Lbn" firstAttribute="centerX" secondItem="Q6Z-7g-p2q" secondAttribute="centerX" id="aPt-eF-P6r"/>
+                            <constraint firstItem="kDb-ID-MJN" firstAttribute="leading" secondItem="Q6Z-7g-p2q" secondAttribute="leadingMargin" constant="41" id="fb0-Xq-ZZw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HNG-2r-Ne1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="428" y="194"/>
+        </scene>
+    </scenes>
+</document>

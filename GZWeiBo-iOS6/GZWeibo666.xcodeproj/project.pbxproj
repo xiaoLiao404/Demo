@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181358BD1C03ED6D00484BB9 /* 快捷键_远程账号.txt in Resources */ = {isa = PBXBuildFile; fileRef = 181358BC1C03ED6D00484BB9 /* 快捷键_远程账号.txt */; settings = {ASSET_TAGS = (); }; };
+		185BFF291C01742900666D54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BFF281C01742900666D54 /* AppDelegate.swift */; };
+		185BFF301C01742900666D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185BFF2F1C01742900666D54 /* Assets.xcassets */; };
+		185BFF751C01A00600666D54 /* CZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BFF741C01A00600666D54 /* CZHomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		185BFF771C01A01500666D54 /* CZMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BFF761C01A01500666D54 /* CZMessageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		185BFF791C01A02300666D54 /* CZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BFF781C01A02300666D54 /* CZDiscoverViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		185BFF7B1C01A03000666D54 /* CZProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BFF7A1C01A03000666D54 /* CZProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		185BFF801C01A30E00666D54 /* CZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BFF7F1C01A30E00666D54 /* CZMainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		185BFF821C01AC1900666D54 /* CZTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BFF811C01AC1900666D54 /* CZTabbar.swift */; settings = {ASSET_TAGS = (); }; };
+		185BFF841C01BA0000666D54 /* CZBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BFF831C01BA0000666D54 /* CZBaseTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		185BFF861C01BBE900666D54 /* CZVistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BFF851C01BBE900666D54 /* CZVistorView.swift */; settings = {ASSET_TAGS = (); }; };
+		185BFF891C01C26400666D54 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185BFF881C01C26400666D54 /* Test.storyboard */; settings = {ASSET_TAGS = (); }; };
+		189824001C0800A100E61D7B /* CZStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189823FF1C0800A100E61D7B /* CZStatus.swift */; settings = {ASSET_TAGS = (); }; };
+		189824021C080AE100E61D7B /* CZUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189824011C080AE100E61D7B /* CZUser.swift */; settings = {ASSET_TAGS = (); }; };
+		189824051C0838A000E61D7B /* statuses.json in Resources */ = {isa = PBXBuildFile; fileRef = 189824041C0838A000E61D7B /* statuses.json */; settings = {ASSET_TAGS = (); }; };
+		189824071C08424300E61D7B /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189824061C08424300E61D7B /* UIView+AutoLayout.swift */; settings = {ASSET_TAGS = (); }; };
+		1898240A1C084A9800E61D7B /* CZStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189824091C084A9800E61D7B /* CZStatusCell.swift */; settings = {ASSET_TAGS = (); }; };
+		1898240C1C084AF400E61D7B /* CZStatusTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898240B1C084AF400E61D7B /* CZStatusTopView.swift */; settings = {ASSET_TAGS = (); }; };
+		1898240E1C08564B00E61D7B /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898240D1C08564B00E61D7B /* UILabel+Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		18B1CFE21C093AC400879AFE /* CZStatusBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CFE11C093AC400879AFE /* CZStatusBottomView.swift */; settings = {ASSET_TAGS = (); }; };
+		18B1CFE41C09468B00879AFE /* CZPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CFE31C09468B00879AFE /* CZPictureView.swift */; settings = {ASSET_TAGS = (); }; };
+		18B1CFE61C098BBE00879AFE /* CZStatusForwardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CFE51C098BBE00879AFE /* CZStatusForwardCell.swift */; settings = {ASSET_TAGS = (); }; };
+		18B1CFE81C09973E00879AFE /* CZStatusNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CFE71C09973E00879AFE /* CZStatusNormalCell.swift */; settings = {ASSET_TAGS = (); }; };
+		18B233481C054893009C0FF0 /* CZWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B233471C054893009C0FF0 /* CZWelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18B2334A1C055687009C0FF0 /* CZNewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B233491C055687009C0FF0 /* CZNewFeatureViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18B2334C1C0597D7009C0FF0 /* UIBarButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2334B1C0597D7009C0FF0 /* UIBarButton+Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		18B2334E1C059E6C009C0FF0 /* CZHomeTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2334D1C059E6C009C0FF0 /* CZHomeTitleButton.swift */; settings = {ASSET_TAGS = (); }; };
+		18CBBFCC1C0BDC4B00D370B7 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CBBFCB1C0BDC4B00D370B7 /* UIButton+Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		18CBBFF21C0BFA7000D370B7 /* CZRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CBBFF11C0BFA7000D370B7 /* CZRefreshControl.swift */; settings = {ASSET_TAGS = (); }; };
+		18CBBFF41C0BFB2200D370B7 /* CZRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CBBFF31C0BFB2200D370B7 /* CZRefreshView.xib */; settings = {ASSET_TAGS = (); }; };
+		18E19F781C043BDC0032A39C /* CZNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E19F771C043BDC0032A39C /* CZNetworkTool.swift */; settings = {ASSET_TAGS = (); }; };
+		18E19F7C1C044B060032A39C /* CZOauthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E19F7B1C044B060032A39C /* CZOauthViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18E19F7E1C0461750032A39C /* CZUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E19F7D1C0461750032A39C /* CZUserAccount.swift */; settings = {ASSET_TAGS = (); }; };
+		BE72BAF931977B73CC66B3D6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656BEA05C60E6CE5368FB20A /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181358BC1C03ED6D00484BB9 /* 快捷键_远程账号.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "快捷键_远程账号.txt"; sourceTree = "<group>"; };
+		185BFF251C01742900666D54 /* GZWeibo666.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZWeibo666.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185BFF281C01742900666D54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		185BFF2F1C01742900666D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185BFF341C01742900666D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185BFF741C01A00600666D54 /* CZHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZHomeViewController.swift; sourceTree = "<group>"; };
+		185BFF761C01A01500666D54 /* CZMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZMessageViewController.swift; sourceTree = "<group>"; };
+		185BFF781C01A02300666D54 /* CZDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZDiscoverViewController.swift; sourceTree = "<group>"; };
+		185BFF7A1C01A03000666D54 /* CZProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZProfileViewController.swift; sourceTree = "<group>"; };
+		185BFF7F1C01A30E00666D54 /* CZMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZMainViewController.swift; sourceTree = "<group>"; };
+		185BFF811C01AC1900666D54 /* CZTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZTabbar.swift; sourceTree = "<group>"; };
+		185BFF831C01BA0000666D54 /* CZBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZBaseTableViewController.swift; sourceTree = "<group>"; };
+		185BFF851C01BBE900666D54 /* CZVistorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZVistorView.swift; sourceTree = "<group>"; };
+		185BFF881C01C26400666D54 /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		189823FF1C0800A100E61D7B /* CZStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZStatus.swift; sourceTree = "<group>"; };
+		189824011C080AE100E61D7B /* CZUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZUser.swift; sourceTree = "<group>"; };
+		189824041C0838A000E61D7B /* statuses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = statuses.json; sourceTree = "<group>"; };
+		189824061C08424300E61D7B /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		189824091C084A9800E61D7B /* CZStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZStatusCell.swift; sourceTree = "<group>"; };
+		1898240B1C084AF400E61D7B /* CZStatusTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZStatusTopView.swift; sourceTree = "<group>"; };
+		1898240D1C08564B00E61D7B /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		18B1CFE11C093AC400879AFE /* CZStatusBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZStatusBottomView.swift; sourceTree = "<group>"; };
+		18B1CFE31C09468B00879AFE /* CZPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZPictureView.swift; sourceTree = "<group>"; };
+		18B1CFE51C098BBE00879AFE /* CZStatusForwardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZStatusForwardCell.swift; sourceTree = "<group>"; };
+		18B1CFE71C09973E00879AFE /* CZStatusNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZStatusNormalCell.swift; sourceTree = "<group>"; };
+		18B233471C054893009C0FF0 /* CZWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZWelcomeViewController.swift; sourceTree = "<group>"; };
+		18B233491C055687009C0FF0 /* CZNewFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZNewFeatureViewController.swift; sourceTree = "<group>"; };
+		18B2334B1C0597D7009C0FF0 /* UIBarButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButton+Extension.swift"; sourceTree = "<group>"; };
+		18B2334D1C059E6C009C0FF0 /* CZHomeTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZHomeTitleButton.swift; sourceTree = "<group>"; };
+		18CBBFCB1C0BDC4B00D370B7 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		18CBBFF11C0BFA7000D370B7 /* CZRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZRefreshControl.swift; sourceTree = "<group>"; };
+		18CBBFF31C0BFB2200D370B7 /* CZRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZRefreshView.xib; sourceTree = "<group>"; };
+		18E19F771C043BDC0032A39C /* CZNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZNetworkTool.swift; sourceTree = "<group>"; };
+		18E19F7B1C044B060032A39C /* CZOauthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZOauthViewController.swift; sourceTree = "<group>"; };
+		18E19F7D1C0461750032A39C /* CZUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZUserAccount.swift; sourceTree = "<group>"; };
+		656BEA05C60E6CE5368FB20A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8166CADED1EF8101ABCE680D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E833CBD7DD1A6774180ABC4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185BFF221C01742900666D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE72BAF931977B73CC66B3D6 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185BFF1C1C01742900666D54 = {
+			isa = PBXGroup;
+			children = (
+				189824031C08387F00E61D7B /* Resource */,
+				181358BC1C03ED6D00484BB9 /* 快捷键_远程账号.txt */,
+				185BFF271C01742900666D54 /* GZWeibo666 */,
+				185BFF261C01742900666D54 /* Products */,
+				80A0603EF646A7A5C0E66D49 /* Pods */,
+				B68EF5A019AB6F512B1CAAC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185BFF261C01742900666D54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF251C01742900666D54 /* GZWeibo666.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185BFF271C01742900666D54 /* GZWeibo666 */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF5D1C019E6900666D54 /* Class */,
+				185BFF2F1C01742900666D54 /* Assets.xcassets */,
+				185BFF341C01742900666D54 /* Info.plist */,
+			);
+			path = GZWeibo666;
+			sourceTree = "<group>";
+		};
+		185BFF5D1C019E6900666D54 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF281C01742900666D54 /* AppDelegate.swift */,
+				185BFF5E1C019E6900666D54 /* Extension(扩展) */,
+				185BFF5F1C019E6900666D54 /* Library(第三方库) */,
+				185BFF601C019E6900666D54 /* Model(全局模型) */,
+				185BFF611C019E6900666D54 /* Module(模块) */,
+				185BFF731C019E6900666D54 /* Tool(工具类) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		185BFF5E1C019E6900666D54 /* Extension(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				18B2334B1C0597D7009C0FF0 /* UIBarButton+Extension.swift */,
+				1898240D1C08564B00E61D7B /* UILabel+Extension.swift */,
+				18CBBFCB1C0BDC4B00D370B7 /* UIButton+Extension.swift */,
+			);
+			name = "Extension(扩展)";
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		185BFF5F1C019E6900666D54 /* Library(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+				189824061C08424300E61D7B /* UIView+AutoLayout.swift */,
+			);
+			name = "Library(第三方库)";
+			path = Library;
+			sourceTree = "<group>";
+		};
+		185BFF601C019E6900666D54 /* Model(全局模型) */ = {
+			isa = PBXGroup;
+			children = (
+				18E19F7D1C0461750032A39C /* CZUserAccount.swift */,
+				189823FF1C0800A100E61D7B /* CZStatus.swift */,
+				189824011C080AE100E61D7B /* CZUser.swift */,
+			);
+			name = "Model(全局模型)";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185BFF611C019E6900666D54 /* Module(模块) */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF871C01C24A00666D54 /* Test(测试) */,
+				18B233451C054852009C0FF0 /* NewFeature(新特性) */,
+				18E19F791C044ADC0032A39C /* Oauth(授权) */,
+				185BFF6A1C019E6900666D54 /* Main(主要的) */,
+				185BFF661C019E6900666D54 /* Home(首页) */,
+				185BFF6B1C019E6900666D54 /* Message(消息) */,
+				185BFF621C019E6900666D54 /* Discover(发现) */,
+				185BFF6F1C019E6900666D54 /* Profile(我) */,
+			);
+			name = "Module(模块)";
+			path = Module;
+			sourceTree = "<group>";
+		};
+		185BFF621C019E6900666D54 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF631C019E6900666D54 /* Controller */,
+				185BFF641C019E6900666D54 /* Model */,
+				185BFF651C019E6900666D54 /* View */,
+			);
+			name = "Discover(发现)";
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		185BFF631C019E6900666D54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF781C01A02300666D54 /* CZDiscoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185BFF641C019E6900666D54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185BFF651C019E6900666D54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185BFF661C019E6900666D54 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF671C019E6900666D54 /* Controller */,
+				185BFF681C019E6900666D54 /* Model */,
+				185BFF691C019E6900666D54 /* View */,
+			);
+			name = "Home(首页)";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		185BFF671C019E6900666D54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF741C01A00600666D54 /* CZHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185BFF681C019E6900666D54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185BFF691C019E6900666D54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18CBBFF01C0BFA4800D370B7 /* RefreshControl */,
+				189824081C084A7B00E61D7B /* Cell */,
+				18B2334D1C059E6C009C0FF0 /* CZHomeTitleButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185BFF6A1C019E6900666D54 /* Main(主要的) */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF7C1C01A2F500666D54 /* Controller */,
+				185BFF7D1C01A2F500666D54 /* Model */,
+				185BFF7E1C01A2F500666D54 /* View */,
+			);
+			name = "Main(主要的)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		185BFF6B1C019E6900666D54 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF6C1C019E6900666D54 /* Controller */,
+				185BFF6D1C019E6900666D54 /* Model */,
+				185BFF6E1C019E6900666D54 /* View */,
+			);
+			name = "Message(消息)";
+			path = Message;
+			sourceTree = "<group>";
+		};
+		185BFF6C1C019E6900666D54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF761C01A01500666D54 /* CZMessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185BFF6D1C019E6900666D54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185BFF6E1C019E6900666D54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185BFF6F1C019E6900666D54 /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF701C019E6900666D54 /* Controller */,
+				185BFF711C019E6900666D54 /* Model */,
+				185BFF721C019E6900666D54 /* View */,
+			);
+			name = "Profile(我)";
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		185BFF701C019E6900666D54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF7A1C01A03000666D54 /* CZProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185BFF711C019E6900666D54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185BFF721C019E6900666D54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185BFF731C019E6900666D54 /* Tool(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				18E19F771C043BDC0032A39C /* CZNetworkTool.swift */,
+			);
+			name = "Tool(工具类)";
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		185BFF7C1C01A2F500666D54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF7F1C01A30E00666D54 /* CZMainViewController.swift */,
+				185BFF831C01BA0000666D54 /* CZBaseTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185BFF7D1C01A2F500666D54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185BFF7E1C01A2F500666D54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF811C01AC1900666D54 /* CZTabbar.swift */,
+				185BFF851C01BBE900666D54 /* CZVistorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185BFF871C01C24A00666D54 /* Test(测试) */ = {
+			isa = PBXGroup;
+			children = (
+				185BFF881C01C26400666D54 /* Test.storyboard */,
+			);
+			name = "Test(测试)";
+			path = Test;
+			sourceTree = "<group>";
+		};
+		189824031C08387F00E61D7B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				189824041C0838A000E61D7B /* statuses.json */,
+			);
+			name = Resource;
+			path = GZWeibo666/Resource;
+			sourceTree = "<group>";
+		};
+		189824081C084A7B00E61D7B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				189824091C084A9800E61D7B /* CZStatusCell.swift */,
+				18B1CFE71C09973E00879AFE /* CZStatusNormalCell.swift */,
+				18B1CFE51C098BBE00879AFE /* CZStatusForwardCell.swift */,
+				1898240B1C084AF400E61D7B /* CZStatusTopView.swift */,
+				18B1CFE11C093AC400879AFE /* CZStatusBottomView.swift */,
+				18B1CFE31C09468B00879AFE /* CZPictureView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		18B233451C054852009C0FF0 /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				18B233461C054852009C0FF0 /* Controller */,
+			);
+			name = "NewFeature(新特性)";
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		18B233461C054852009C0FF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B233471C054893009C0FF0 /* CZWelcomeViewController.swift */,
+				18B233491C055687009C0FF0 /* CZNewFeatureViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18CBBFF01C0BFA4800D370B7 /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				18CBBFF11C0BFA7000D370B7 /* CZRefreshControl.swift */,
+				18CBBFF31C0BFB2200D370B7 /* CZRefreshView.xib */,
+			);
+			path = RefreshControl;
+			sourceTree = "<group>";
+		};
+		18E19F791C044ADC0032A39C /* Oauth(授权) */ = {
+			isa = PBXGroup;
+			children = (
+				18E19F7A1C044ADC0032A39C /* Controller */,
+			);
+			name = "Oauth(授权)";
+			path = Oauth;
+			sourceTree = "<group>";
+		};
+		18E19F7A1C044ADC0032A39C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18E19F7B1C044B060032A39C /* CZOauthViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80A0603EF646A7A5C0E66D49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8166CADED1EF8101ABCE680D /* Pods.debug.xcconfig */,
+				E833CBD7DD1A6774180ABC4C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B68EF5A019AB6F512B1CAAC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				656BEA05C60E6CE5368FB20A /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185BFF241C01742900666D54 /* GZWeibo666 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185BFF371C01742900666D54 /* Build configuration list for PBXNativeTarget "GZWeibo666" */;
+			buildPhases = (
+				A9F60BF4169F1BD24422EE9D /* Check Pods Manifest.lock */,
+				185BFF211C01742900666D54 /* Sources */,
+				185BFF221C01742900666D54 /* Frameworks */,
+				185BFF231C01742900666D54 /* Resources */,
+				509517D3110EDE858654E5F9 /* Embed Pods Frameworks */,
+				879C0A708319975421088AA6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GZWeibo666;
+			productName = GZWeibo666;
+			productReference = 185BFF251C01742900666D54 /* GZWeibo666.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185BFF1D1C01742900666D54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CZ;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					185BFF241C01742900666D54 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 185BFF201C01742900666D54 /* Build configuration list for PBXProject "GZWeibo666" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185BFF1C1C01742900666D54;
+			productRefGroup = 185BFF261C01742900666D54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185BFF241C01742900666D54 /* GZWeibo666 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185BFF231C01742900666D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189824051C0838A000E61D7B /* statuses.json in Resources */,
+				185BFF891C01C26400666D54 /* Test.storyboard in Resources */,
+				18CBBFF41C0BFB2200D370B7 /* CZRefreshView.xib in Resources */,
+				181358BD1C03ED6D00484BB9 /* 快捷键_远程账号.txt in Resources */,
+				185BFF301C01742900666D54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		509517D3110EDE858654E5F9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		879C0A708319975421088AA6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F60BF4169F1BD24422EE9D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185BFF211C01742900666D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1CFE61C098BBE00879AFE /* CZStatusForwardCell.swift in Sources */,
+				1898240E1C08564B00E61D7B /* UILabel+Extension.swift in Sources */,
+				185BFF7B1C01A03000666D54 /* CZProfileViewController.swift in Sources */,
+				18B1CFE41C09468B00879AFE /* CZPictureView.swift in Sources */,
+				189824021C080AE100E61D7B /* CZUser.swift in Sources */,
+				1898240A1C084A9800E61D7B /* CZStatusCell.swift in Sources */,
+				18B2334C1C0597D7009C0FF0 /* UIBarButton+Extension.swift in Sources */,
+				18B233481C054893009C0FF0 /* CZWelcomeViewController.swift in Sources */,
+				18E19F7C1C044B060032A39C /* CZOauthViewController.swift in Sources */,
+				185BFF841C01BA0000666D54 /* CZBaseTableViewController.swift in Sources */,
+				185BFF791C01A02300666D54 /* CZDiscoverViewController.swift in Sources */,
+				18B1CFE81C09973E00879AFE /* CZStatusNormalCell.swift in Sources */,
+				18B2334E1C059E6C009C0FF0 /* CZHomeTitleButton.swift in Sources */,
+				185BFF801C01A30E00666D54 /* CZMainViewController.swift in Sources */,
+				18CBBFCC1C0BDC4B00D370B7 /* UIButton+Extension.swift in Sources */,
+				185BFF751C01A00600666D54 /* CZHomeViewController.swift in Sources */,
+				185BFF821C01AC1900666D54 /* CZTabbar.swift in Sources */,
+				185BFF291C01742900666D54 /* AppDelegate.swift in Sources */,
+				18CBBFF21C0BFA7000D370B7 /* CZRefreshControl.swift in Sources */,
+				18E19F781C043BDC0032A39C /* CZNetworkTool.swift in Sources */,
+				1898240C1C084AF400E61D7B /* CZStatusTopView.swift in Sources */,
+				18B1CFE21C093AC400879AFE /* CZStatusBottomView.swift in Sources */,
+				189824071C08424300E61D7B /* UIView+AutoLayout.swift in Sources */,
+				18B2334A1C055687009C0FF0 /* CZNewFeatureViewController.swift in Sources */,
+				189824001C0800A100E61D7B /* CZStatus.swift in Sources */,
+				185BFF771C01A01500666D54 /* CZMessageViewController.swift in Sources */,
+				185BFF861C01BBE900666D54 /* CZVistorView.swift in Sources */,
+				18E19F7E1C0461750032A39C /* CZUserAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		185BFF351C01742900666D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185BFF361C01742900666D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185BFF381C01742900666D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8166CADED1EF8101ABCE680D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = GZWeibo666/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.GZWeibo666;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		185BFF391C01742900666D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E833CBD7DD1A6774180ABC4C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = GZWeibo666/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.GZWeibo666;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185BFF201C01742900666D54 /* Build configuration list for PBXProject "GZWeibo666" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185BFF351C01742900666D54 /* Debug */,
+				185BFF361C01742900666D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185BFF371C01742900666D54 /* Build configuration list for PBXNativeTarget "GZWeibo666" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185BFF381C01742900666D54 /* Debug */,
+				185BFF391C01742900666D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185BFF1D1C01742900666D54 /* Project object */;
+}
